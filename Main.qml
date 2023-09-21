@@ -31,7 +31,10 @@ Window {
                     radius: 20
                     Text{
                         id: textId
+                        width: 130
                         anchors.centerIn: parent
+                        font.pointSize : 16
+                        wrapMode: Text.Wrap
                     }
                     MouseArea{
                         anchors.fill: parent
